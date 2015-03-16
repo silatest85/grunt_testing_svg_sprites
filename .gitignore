@@ -1,5 +1,6 @@
 # Project specific files and foleds
 /.sass-cache
+.sublime-grunt.cache
 
 # Node.js
 /node_modules
