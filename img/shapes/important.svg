@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+
+      .cls-2 {
+        fill: #ffffff;
+        filter: url(#outer-glow-1);
+      }
+    </style>
+
+    <filter id="outer-glow-1" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="3" in="SourceAlpha"/>
+      <feComposite/>
+      <feComposite/>
+      <feComposite result="outerGlowBlur"/>
+      <feFlood flood-color="#ffffff" flood-opacity="0.15"/>
+      <feComposite operator="in" in2="outerGlowBlur"/>
+      <feComposite in="SourceGraphic" result="outerGlow"/>
+    </filter>
+  </defs>
+  <path d="M15.000,20.984 C11.721,20.984 9.062,18.305 9.062,15.000 C9.062,11.695 11.721,9.016 15.000,9.016 C18.279,9.016 20.937,11.695 20.937,15.000 C20.937,18.305 18.279,20.984 15.000,20.984 ZM14.996,10.219 C12.372,10.219 10.245,12.359 10.245,14.999 C10.245,17.638 12.372,19.778 14.996,19.778 C17.620,19.778 19.748,17.638 19.748,14.999 C19.748,12.359 17.620,10.219 14.996,10.219 ZM15.952,18.000 C15.715,18.136 15.406,18.204 15.025,18.204 C14.650,18.204 14.340,18.133 14.096,17.993 C13.851,17.853 13.729,17.683 13.729,17.483 C13.729,17.275 13.853,17.104 14.099,16.971 C14.346,16.838 14.654,16.771 15.025,16.771 C15.401,16.771 15.709,16.839 15.948,16.973 C16.188,17.108 16.308,17.278 16.308,17.483 C16.308,17.691 16.189,17.864 15.952,18.000 ZM14.103,15.599 C14.103,15.599 13.842,11.698 13.842,11.698 C13.842,11.698 16.181,11.698 16.181,11.698 C16.181,11.698 15.906,15.599 15.906,15.599 C15.906,15.599 14.103,15.599 14.103,15.599 Z" id="path-1" class="cls-2" fill-rule="evenodd"/>
+</svg>

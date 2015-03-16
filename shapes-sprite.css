@@ -1,0 +1,189 @@
+.alert {
+	width: 21px;
+	height: 18px;
+	background-position: 0 0;
+}
+
+.bell {
+	width: 65px;
+	height: 80px;
+	background-position: -30px 0;
+}
+
+.current-user-important {
+	width: 27px;
+	height: 25px;
+	background-position: -100px 0;
+}
+
+.current-user-important-active {
+	width: 38px;
+	height: 37px;
+	background-position: -135px 0;
+}
+
+.down {
+	width: 38px;
+	height: 37px;
+	background-position: -180px 0;
+}
+
+.envelope {
+	width: 39px;
+	height: 32px;
+	background-position: -225px 0;
+}
+
+.gold {
+	width: 14px;
+	height: 11px;
+	background-position: -270px 0;
+}
+
+.important {
+	width: 30px;
+	height: 30px;
+	background-position: -290px 0;
+}
+
+.important_big {
+	width: 42px;
+	height: 42px;
+	background-position: -325px 0;
+}
+
+.info {
+	width: 19px;
+	height: 19px;
+	background-position: -375px 0;
+}
+
+.message {
+	width: 25px;
+	height: 20px;
+	background-position: -400px 0;
+}
+
+.message-active {
+	width: 43px;
+	height: 37px;
+	background-position: -430px 0;
+}
+
+.message_empty {
+	width: 27px;
+	height: 20px;
+	background-position: -480px 0;
+}
+
+.message_empty-active {
+	width: 45px;
+	height: 37px;
+	background-position: -515px 0;
+}
+
+.notification {
+	width: 35px;
+	height: 39px;
+	background-position: -565px 0;
+}
+
+.notification - копия {
+	width: 35px;
+	height: 39px;
+	background-position: -605px 0;
+}
+
+.notification-active {
+	width: 35px;
+	height: 39px;
+	background-position: -645px 0;
+}
+
+.notification-active - копия {
+	width: 35px;
+	height: 39px;
+	background-position: -685px 0;
+}
+
+.premium {
+	width: 18px;
+	height: 16px;
+	background-position: -725px 0;
+}
+
+.sign-off {
+	width: 13px;
+	height: 12px;
+	background-position: -750px 0;
+}
+
+.social {
+	width: 24px;
+	height: 17px;
+	background-position: -770px 0;
+}
+
+.success {
+	width: 16px;
+	height: 15px;
+	background-position: -800px 0;
+}
+
+.up {
+	width: 38px;
+	height: 38px;
+	background-position: -825px 0;
+}
+
+.up_filled {
+	width: 19px;
+	height: 19px;
+	background-position: -870px 0;
+}
+
+.wg-logo {
+	width: 39px;
+	height: 39px;
+	background-position: -895px 0;
+}
+
+.wot {
+	width: 30px;
+	height: 33px;
+	background-position: -940px 0;
+}
+
+.wotb {
+	width: 31px;
+	height: 35px;
+	background-position: -975px 0;
+}
+
+.wotg {
+	width: 38px;
+	height: 38px;
+	background-position: -1015px 0;
+}
+
+.wow {
+	width: 30px;
+	height: 34px;
+	background-position: -1060px 0;
+}
+
+.wowp {
+	width: 46px;
+	height: 33px;
+	background-position: -1095px 0;
+}
+
+.alert, .bell, .current-user-important, .current-user-important-active, .down, .envelope, .gold, .important, .important_big, .info, .message, .message-active, .message_empty, .message_empty-active, .notification, .notification - копия, .notification-active, .notification-active - копия, .premium, .sign-off, .social, .success, .up, .up_filled, .wg-logo, .wot, .wotb, .wotg, .wow, .wowp {
+	background-size: 1150px 85px;
+	background-repeat: no-repeat;
+	background-image: url("img/dr-logos-tv-sprite.png");
+}
+
+.svg .alert, .svg .bell, .svg .current-user-important, .svg .current-user-important-active, .svg .down, .svg .envelope, .svg .gold, .svg .important, .svg .important_big, .svg .info, .svg .message, .svg .message-active, .svg .message_empty, .svg .message_empty-active, .svg .notification, .svg .notification - копия, .svg .notification-active, .svg .notification-active - копия, .svg .premium, .svg .sign-off, .svg .social, .svg .success, .svg .up, .svg .up_filled, .svg .wg-logo, .svg .wot, .svg .wotb, .svg .wotg, .svg .wow, .svg .wowp {
+	background-image: url("img/dr-logos-tv-sprite.svg");
+}

@@ -1,0 +1,23 @@
+console.log('через тайп оф');
+var typeVariable = function (variable) {
+	var type = typeof (variable);
+	return type;
+};
+console.log(typeVariable(1));
+console.log(typeVariable('1'));
+console.log(typeVariable([1,2,3]));
+console.log(typeVariable(typeVariable));
+console.log(typeVariable(NaN));
+console.log(typeVariable(null));
+console.log(typeVariable(undefined));
+console.log(typeVariable(Object));
+console.log('через обджект ту стринг');
+function typeOf(value) { return Object.prototype.toString.call(value).slice(8, -1); };
+console.log(typeOf(1));
+console.log(typeOf('1'));
+console.log(typeOf([1,2,3]));
+console.log(typeOf(typeVariable));
+console.log(typeOf(NaN));
+console.log(typeOf(null));
+console.log(typeOf(undefined));
+console.log(typeOf(Object));
